@@ -4,7 +4,7 @@ A collection of algorithms to performs computer vision and deep learning tasks.
 
 ## Algorithms:
 
-*  **samples/people_remove.py** 
+*  **people_remove.py** 
     It allows to remove people from difficult scenario. The objective is to to reach real time performance.
     The pipeline to achive the problem is:
         1. Detection: People [Yolov5 Pytorch](https://github.com/ultralytics/yolov5)
@@ -31,7 +31,9 @@ A collection of algorithms to performs computer vision and deep learning tasks.
     source env/bin/activate
     pip install -r requirements.txt
     ```
-    
+
+* Download models.zip from this [visionlab_stack models link](https://drive.google.com/file/d/1uPLrxxxd1__WVK_xMuDPXGIWojQwBMha/view?usp=sharing). Unzip the file and place it in **data/**
+
 * Run the people removal
 
     ```

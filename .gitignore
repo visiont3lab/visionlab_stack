@@ -2,6 +2,7 @@
 data/results
 data/videos
 data/models
+data/models.zip
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
