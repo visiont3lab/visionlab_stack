@@ -23,11 +23,7 @@ A collection of algorithms to performs computer vision and deep learning tasks.
     ```
     git clone https://github.com/visiont3lab/visionlab_stack.git
     cd visionlab_stack
-    mkdir -p data/results/detection
-    mkdir -p data/results/images
-    mkdir -p data/results/masks
-    mkdir -p data/results/inpainting
-    mkdir -p data/results/bg_estimate
+    mkdir -p data/results/detection data/results/images data/results/masks data/results/inpainting data/results/bg_estimate
 
     virtualenv --python=python3.6 env
     source env/bin/activate
@@ -43,6 +39,10 @@ Unzip the file and place it in **data/**
     ```
     python people_remove.py
     ```
+
+## Results
+
+<iframe src="https://drive.google.com/file/d/1VK6f9TrcCfL9aYcHK3UJ4Ii_blEsUPB3/preview" width="640" height="480"></iframe>
 
 ## Pip Packaging
     
