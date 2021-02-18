@@ -42,7 +42,7 @@ Unzip the file and place it in **data/**
 
 ## Results
 
-<iframe src="https://drive.google.com/file/d/1VK6f9TrcCfL9aYcHK3UJ4Ii_blEsUPB3/preview" width="640" height="480"></iframe>
+    * [Rome People Remove](https://drive.google.com/file/d/1VK6f9TrcCfL9aYcHK3UJ4Ii_blEsUPB3/edit)
 
 ## Pip Packaging
     
