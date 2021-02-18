@@ -16,6 +16,8 @@ A collection of algorithms to performs computer vision and deep learning tasks.
 * Python3.6 is required to allow compatibility with [Deepfillv2 Tensorflow](https://github.com/JiahuiYu/generative_inpainting)
     Issue python 3.8 does not support tensorflow 1.14.0
 
+### Developing Library
+
 * Cloning the repo:
 
     ```
@@ -30,9 +32,11 @@ A collection of algorithms to performs computer vision and deep learning tasks.
     virtualenv --python=python3.6 env
     source env/bin/activate
     pip install -r requirements.txt
+
     ```
 
-* Download models.zip from this [visionlab_stack models link](https://drive.google.com/file/d/1uPLrxxxd1__WVK_xMuDPXGIWojQwBMha/view?usp=sharing). Unzip the file and place it in **data/**
+* Download models.zip from this [visionlab_stack models link](https://drive.google.com/file/d/1uPLrxxxd1__WVK_xMuDPXGIWojQwBMha/view?usp=sharing).
+Unzip the file and place it in **data/**
 
 * Run the people removal
 
@@ -40,15 +44,18 @@ A collection of algorithms to performs computer vision and deep learning tasks.
     python people_remove.py
     ```
 
-## Pip Pacakging
+## Pip Packaging
     
     ```
+    # Create Env
     source env/bin/activate
     pip install setuptools wheel 
-    # build
+    # Build
     python3 setup.py sdist bdist_wheel
-    # install
+    # Install Locally
     pip install dist/visionlab_stack-0.0.1.tar.gz 
+    # Install Using Pip
+    pip install git+https://github.com/visiont3lab/visionlab_stack
     ```
 
 ## Results

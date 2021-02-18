@@ -1,17 +1,14 @@
-# pip install -r requirements.txt
-
-# base ----------------------------------------
 Cython
-matplotlib>=3.2.2
-numpy>=1.18.5
-opencv-python==4.2.0.34
 Pillow
 PyYAML>=5.3.1
-scipy>=1.4.1
+opencv-python==4.2.0.34
 torch>=1.7.0
 torchvision>=0.8.1
 tqdm>=4.41.0
-seaborn>=0.11.0
-pandas
+neuralgym @ git+https://github.com/JiahuiYu/neuralgym
 tensorflow==1.14.0
-
+imutils
+requests
+matplotlib
+pandas
+seaborn

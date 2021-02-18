@@ -1,5 +1,5 @@
 import sys, os, argparse
-sys.path.append('./visionlab_stack/inpainting/DeepFillV1') 
+sys.path.append(os.path.join(os.path.dirname(__file__)))
 
 import torch
 import numpy as np
@@ -30,7 +30,6 @@ def select_device(device='', batch_size=None):
     else:
         s += 'CPU\n'
     return torch.device('cuda:0' if cuda else 'cpu')
-
 
 
 class DeepFillV1(object):

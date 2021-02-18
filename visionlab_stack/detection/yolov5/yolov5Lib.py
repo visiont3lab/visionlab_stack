@@ -1,8 +1,7 @@
-import sys
-sys.path.append('./visionlab_stack/detection/yolov5') 
+import sys, os, argparse
+sys.path.append(os.path.join(os.path.dirname(__file__))) 
 
 import numpy as np
-import os
 import time
 import cv2
 import torch

@@ -1,2 +1,2 @@
 # Include the data files
-recursive-include data/models/ *
+# recursive-include data/models/ *
